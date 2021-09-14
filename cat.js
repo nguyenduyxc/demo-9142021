@@ -1,4 +1,4 @@
-const Mouse = require("./mouse");
+const Mouse = require("./Mouse");
 
 function Cat(){
     this.stomach=[];
@@ -6,4 +6,5 @@ function Cat(){
 Cat.prototype.eat=function(mouse){
     this.stomach.push(mouse);
 }
+
 module.exports = Cat;
