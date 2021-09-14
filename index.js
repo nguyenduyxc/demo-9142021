@@ -12,3 +12,6 @@ dog.eat(tom);
 console.log(dog);
 //dog.sayHi();
 
+
+//test clone 
+
